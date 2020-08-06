@@ -1,0 +1,109 @@
+
+body {
+  margin: 0%;
+  padding: 7% 7% 0% 7%;
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0.062), rgb(221, 52, 66));}
+
+img {
+  width: 18%;
+  border-radius: 50%;
+  height: auto;
+  margin-left: 15%;
+  border: top -45%;
+}
+
+h1 {
+  color: white;
+  font-family: 'Carter One';
+  font-size: 400%;
+  text-align: center;
+  text-shadow: 1px 2px 15px rgba(8, 2, 2, 0.582);
+  margin: -17% 5% 10% 40%;
+word-wrap: none;  
+}
+
+.container {
+  background-color: rgba(250, 245, 245, 0.226);
+  display: flex;
+  margin: 13% 0% 15% 3%;
+  border-radius: 8px;
+  align-items: center;
+  flex-direction: row;
+  /*direção dos itens*/
+  /*column| row-reverse| column-reverse */
+  flex-wrap: nowrap;
+  /* quebra de linha*/
+  /*wrap| wrap-reverse*/
+  flex-flow: row nowrap;
+  /*junção do flex-wrap e flex-direction*/
+  justify-content: center;
+  /* alinhamento horizontal */
+  /*flex-end| center| space-between| space-around*/
+  align-items: stretch;
+  /*alinhamento vertical*/
+  /*flex-start| flex-end| center| baseline*/
+}
+
+.col {
+  flex-shrink: 1;
+ color: #fff;
+  padding: 4%;
+  max-width: 40%;
+  width: 40%;
+}
+
+.resumo, .contatos, .formacao, .profissional, .cursos {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+  padding: 10%;
+  background-position: center;
+  text-shadow: 1px 2px 15px rgba(61, 59, 59, 0.582);
+  font-size: 110%;
+  margin: -10% 0% -10% 0%;
+}
+
+p {
+  font-size: 110%;
+  text-align: justify;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.37);
+  padding:2%;
+  text-align: center;
+  border-radius: 8px;
+  margin: 10% -5% 10% -5% ;
+}
+
+
+ul {
+  font-size: 110%;
+  list-style-type: circle;
+  list-style-position: outside;
+
+  
+}
+
+.contatos>ul {
+  list-style-type: none;
+}
+.formacao>ul {
+  list-style-type: none;
+}
+h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin:7% 0% 2% 0%;
+}
+
+li{
+ margin-bottom: 2%;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
